@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Contador() {
 
-const [dinheiro,setDinheiro] = useState(100000);
+const [dinheiro,setDinheiro] = useState(1000000);
 const [inventario,setInventario] = useState([]);
 const [passiveIncomes,setPassiveIncomes] = useState([]);
 
