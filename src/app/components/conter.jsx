@@ -422,7 +422,7 @@ Dinheiro: R$ {dinheiro.toFixed(2)}
 {evento && <p className="text-red-500">{evento}</p>}
 <h2 className="font-bold">Produtos</h2></div>
 
-<div className="mt-[50%] space-y-6">
+<div className="mt-[30%] space-y-6">
 {produtos.map(p=>(
 
 <div key={p.id} className="flex  justify-between border p-2">
